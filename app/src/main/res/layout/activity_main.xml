@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btn_youku_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="优酷菜单"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="轮播图"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_drop_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下拉列表"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_switch_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义开关"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_refresh_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下拉刷新和上拉加载更多"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_sliding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="侧滑面板"
+        android:textAllCaps="false"
+        />
+
+
+</LinearLayout>

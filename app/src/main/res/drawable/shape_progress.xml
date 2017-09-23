@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toDegrees="-360">
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+           android:innerRadiusRatio="2.5"
+           android:shape="ring"
+           android:thicknessRatio="10"
+           android:useLevel="false">
+        <!--
+            android:innerRadius="20dp" -> 内圆半径
+            android:thickness="5dp" -> 圆环厚度
+            还可以用比例来表示内圆半径和圆环厚度:
+            android:innerRadiusRatio="2.5" ->  内圆半径 = 当前控件宽度 / 2.5
+            android:thicknessRatio="10" -> 圆环厚度 = 当前控件宽度 / 10
+        -->
+
+        <gradient
+            android:centerColor="#44ff0000"
+            android:endColor="#00000000"
+            android:startColor="#ff0000"
+            android:type="sweep"
+            />
+    </shape>
+</rotate>
